@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: url("images/calltoaction.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -7,17 +8,13 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 280px auto 0 183px;
-}
-
-.u-section-1 .u-text-2 {
-  margin: -39px 177px 0 auto;
+  margin: 307px auto 0;
 }
 
 .u-section-1 .u-gallery-1 {
   height: 355px;
   width: 541px;
-  margin: 35px auto 0 0;
+  margin: 0 auto 60px;
 }
 
 .u-section-1 .u-carousel-indicators-1 {
@@ -79,12 +76,6 @@
   height: 40px;
 }
 
-.u-section-1 .u-map-1 {
-  height: 352px;
-  width: 515px;
-  margin: -353px 0 60px auto;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 876px;
@@ -102,10 +93,6 @@
     min-height: 503px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-left: 137px;
-  }
-
   .u-section-1 .u-gallery-1 {
     width: 540px;
   }
@@ -113,22 +100,18 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 317px;
+    min-height: 748px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 86px;
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-right: 111px;
+    margin-top: 263px;
   }
 
   .u-section-1 .u-gallery-1 {
-    width: 340px;
-  }
-
-  .u-section-1 .u-map-1 {
-    width: 340px;
+    margin-top: 104px;
+    margin-bottom: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }
